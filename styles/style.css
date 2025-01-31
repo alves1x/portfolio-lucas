@@ -55,16 +55,22 @@ body{
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 2rem;
+    font-size: 2.8rem;
     font-family: var(--fonte-primaria);
 }
 
+ .apresentacao__conteudo__titulo2{
+    font-size: 2rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor--terciaria);
+    padding: 0% 0% 0% 0%;
+}
 .titulo-destaque{
     color: var(--cor--terciaria);
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 2.8vw;
+    font-size: 1.4vw;
     font-family: var(--fonte-secundaria)
 }
 
@@ -135,7 +141,7 @@ body{
     }
     .apresentacao__conteudo__texto {
         font-size: 4vw;
-        padding: 0% 10% 0 10%;
+        padding: 0% 10% 10% 10%;
     }  
     .apresentacao__conteudo__titulo {
         font-size: 7vw;
@@ -144,5 +150,15 @@ body{
     .imgLucas {
         width: 50%;
 
+    }
+    .apresentacao__links {
+        padding: 0 0% 10% 0;
+    }
+   
+    .apresentacao__conteudo__titulo2{
+        font-size: 2rem;
+        font-family: var(--fonte-primaria);
+        color: var(--cor--terciaria);
+        padding: 0% 0% 0% 10%;
     }
 }
